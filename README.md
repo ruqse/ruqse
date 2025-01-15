@@ -7,7 +7,7 @@ I'm a Results-driven bioinformatician with expertise in transcriptomics analysis
 
 ## 🧬 Selected Professional Projects
 
-### [StagNF](YOUR_REPO_LINK)
+### [StagNF](https://github.com/ruqse/StagNF)
 A Nextflow Implementation of StaG-mwc (Metagenomic Workflow Collaboration)
 - 🔄 Nextflow adaptation of the comprehensive StaG-mwc workflow
 - 🧪 Quality control, host removal, and taxonomic profiling pipeline
@@ -15,15 +15,21 @@ A Nextflow Implementation of StaG-mwc (Metagenomic Workflow Collaboration)
 - 📊 Streamlined metagenomic analysis workflow
 - 🔧 Continuous development to mirror original functionality
 
-### [RNA-Seq Analysis Pipeline](YOUR_REPO_LINK)
+### [Transcriptomic Gene Co-expression Network Analysis](https://github.com/ruqse/Parascaris-IVM-GeneNetwork)
 Gene Co-expression Network Analysis in *Parascaris univalens* Following Ivermectin Exposure
-- 🧬 Comprehensive RNA-seq analysis workflow
 - 🔍 Investigation of drug response mechanisms
 - 📊 Gene co-expression network analysis
 - 🦠 Specialized for parasitic nematode research
 - 💊 Focus on anthelmintic drug response
 
-### [C. elegans Ivermectin Response Visualization](YOUR_REPO_LINK)
+### [RNA-Seq Nextflow Pipeline](https://github.com/ruqse/N2IVM)
+A comprehensive Nextflow pipeline for analyzing Ivermectin-exposed *C. elegans* (N2) RNA-Seq data
+- 🧬 Complete workflow from raw reads to differential expression analysis
+- 🔍 Specialized pipeline for drug response studies
+- 📊 Integrated quality control and quantification
+- 🧪 Optimized for *C. elegans* transcriptomics
+
+### [C. elegans Ivermectin Response Visualization](https://github.com/ruqse/MLgenePositions)
 Analysis and Visualization of Drug Response in *C. elegans*
 - 📈 Manhattan plot generation for drug exposure mapping
 - 📊 Rug plots for resistance-implicated genes
@@ -38,6 +44,10 @@ Analysis and Visualization of Drug Response in *C. elegans*
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![HPC](https://img.shields.io/badge/-HPC-4B0082?style=flat-square&logo=server&logoColor=white)
+
 
 ## 🚀 Side Projects
 
@@ -51,7 +61,6 @@ A platform simplifying PhD course discovery across Sweden and beyond
 Planning tool for PhD defense preparation
 - 📅 Defense timeline management
 - 📝 Milestone tracking
-- 👥 Collaboration tools
 
 ## 📈 GitHub Stats
 
