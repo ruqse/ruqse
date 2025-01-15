@@ -61,11 +61,11 @@ A platform simplifying PhD course discovery across Sweden and beyond
 Planning tool for PhD defense preparation
 - 📅 Defense timeline management
 - 📝 Milestone tracking
-
+<!-- 
 ## 📈 GitHub Stats
 
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruqse&show_icons=true&theme=radical)
-
+-->
 ## 🌐 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/farukdube)
