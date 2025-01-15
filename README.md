@@ -1,16 +1,74 @@
-## Hi there 👋
+# Hi there! 👋 
 
-<!--
-**ruqse/ruqse** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![GitHub followers](https://img.shields.io/github/followers/ruqse?label=Follow&style=social)](https://github.com/ruqse)
 
-Here are some ideas to get you started:
+I'm a Results-driven bioinformatician with expertise in transcriptomics analysis and machine learning applications in drug response and microbiome studies. Proven track record in developing computational methods for gene co-expression network analysis and implementing scalable data analysis pipelines. Demonstrated success in collaborating with cross-functional teams to translate complex computational results into actionable biological insights. Specialized in integrating diverse data types to drive innovative research.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+
+## 🧬 Selected Professional Projects
+
+### [StagNF](YOUR_REPO_LINK)
+A Nextflow Implementation of StaG-mwc (Metagenomic Workflow Collaboration)
+- 🔄 Nextflow adaptation of the comprehensive StaG-mwc workflow
+- 🧪 Quality control, host removal, and taxonomic profiling pipeline
+- 🖥️ Optimized for UPPMAX clusters, adaptable to any HPC environment
+- 📊 Streamlined metagenomic analysis workflow
+- 🔧 Continuous development to mirror original functionality
+
+### [RNA-Seq Analysis Pipeline](YOUR_REPO_LINK)
+Gene Co-expression Network Analysis in *Parascaris univalens* Following Ivermectin Exposure
+- 🧬 Comprehensive RNA-seq analysis workflow
+- 🔍 Investigation of drug response mechanisms
+- 📊 Gene co-expression network analysis
+- 🦠 Specialized for parasitic nematode research
+- 💊 Focus on anthelmintic drug response
+
+### [C. elegans Ivermectin Response Visualization](YOUR_REPO_LINK)
+Analysis and Visualization of Drug Response in *C. elegans*
+- 📈 Manhattan plot generation for drug exposure mapping
+- 📊 Rug plots for resistance-implicated genes
+- 🔬 Integration of AndersenLab GWA mapping data
+- 🧪 Specialized visualization for drug response studies
+
+## 💻 Tech Stack
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Nextflow](https://img.shields.io/badge/-Nextflow-0FC15A?style=flat-square&logo=nextflow&logoColor=white)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+## 🚀 Side Projects
+
+### [Courses360](https://www.phdplanner.com/courses360/)
+A platform simplifying PhD course discovery across Sweden and beyond
+- 🔍 Centralized search for doctoral courses
+- 📚 Regularly updated course database
+- 🌍 Expanding international coverage
+
+### [DefencePlanner](https://www.phdplanner.com)
+Planning tool for PhD defense preparation
+- 📅 Defense timeline management
+- 📝 Milestone tracking
+- 👥 Collaboration tools
+
+## 📈 GitHub Stats
+
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruqse&show_icons=true&theme=radical)
+
+## 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/farukdube)
+
+---
+
+🧬 Advancing bioinformatics through robust pipeline development and analysis. Open to collaborations!
+
+<!-- 
+Replace the following:
+- YOUR_USERNAME with your GitHub username
+- YOUR_REPO_LINK with the respective repository URLs
+- YOUR_LINKEDIN_URL with your LinkedIn profile URL
+- YOUR_TWITTER_URL with your Twitter profile URL
 -->
