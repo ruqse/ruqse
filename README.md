@@ -2,7 +2,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/ruqse?label=Follow&style=social)](https://github.com/ruqse)
 
-I'm a Results-driven bioinformatician with expertise in transcriptomics, genomics and metagenomics analysis, and machine learning applications. Proven track record in developing computational methods for gene co-expression network analysis and implementing scalable data analysis pipelines. Demonstrated success in collaborating with cross-functional teams to translate complex computational results into actionable biological insights. Specialized in integrating diverse data types to drive innovative research.
+I'm a Results-driven bioinformatician with expertise in transcriptomics, genomics and metagenomics analysis, and machine learning applications. Proven track record in implementing computational methods for gene co-expression network analysis and implementing scalable data analysis pipelines. Demonstrated success in collaborating with cross-functional teams to translate complex computational results into actionable biological insights. Specialized in integrating diverse data types to drive innovative research.
 
 
 ## 🧬 Selected Professional Projects
