@@ -1,4 +1,4 @@
-# Hi there! 👋 
+# Hi there! 
 
 [![GitHub followers](https://img.shields.io/github/followers/ruqse?label=Follow&style=social)](https://github.com/ruqse)
 
@@ -51,22 +51,19 @@ Analysis and Visualization of Drug Response in *C. elegans*
 
 ## Hobby projects
 
-### [Courses360](https://phdplanner.com/courses360)
-A platform simplifying PhD course discovery across Sweden and beyond
-- 🔍 Centralized search for doctoral courses
-- 📚 Regularly updated course database
-- 🌍 Expanding international coverage
+### [PhDplanner](https://phdplanner.com)
+One workspace for PhD course discovery and defence preparation
+- Centralized search of doctoral courses across Sweden, filter by topic, university, location, and delivery mode (browse [Courses](https://phdplanner.com/courses360))
+- Deadline awareness with direct links to official application pages, easy sharing for supervisors and colleagues
+- Backward-planned defence timeline from your target date, milestones, documents, and reminders in one place (open the [Defence Planner](https://phdplanner.com/defence-plan))
+- Regularly refreshed data and growing institutional coverage, with international expansion planned
 
-### [DefencePlanner](https://phdplanner.com/defence-plan)
-Planning tool for PhD defense preparation
-- Defense timeline management
-- Milestone tracking
 <!-- 
 ## GitHub Stats
 
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruqse&show_icons=true&theme=radical)
 -->
-## Connect With Me
+## Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/farukdube)
 
