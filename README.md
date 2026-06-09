@@ -6,6 +6,13 @@ I turn biological chaos into code-powered clarity so scientists can science bett
 
 
 ## Selected professional projects
+### [MetaPhlAn 4 vs VIRGO2 for *Gardnerella*](https://github.com/ruqse/metaphlan4-vs-virgo2-gardnerella)
+ A database-content comparison of two metagenomic references for the vaginal genus *Gardnerella*
+ - MetaPhlAn 4 (vJan25) collapses the four named *Gardnerella* species into 2 genome bins (SGBs)
+ - VIRGO2 resolves all four species plus 7 *G. vaginalis* sub-clades, for 16 distinct labels
+ - Labels read directly from the MetaPhlAn marker database and the VIRGO2 taxon table
+ - Database-content analysis of what each catalog can represent, not a per-read benchmark
+ - Reproducible in about a minute with committed outputs
 
 ### [StagNF](https://github.com/ruqse/StagNF)
 A Nextflow Implementation of StaG-mwc (Metagenomic Workflow Collaboration)
