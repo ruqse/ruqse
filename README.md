@@ -6,6 +6,13 @@ I turn biological chaos into code-powered clarity so scientists can science bett
 
 
 ## Selected professional projects
+### [PLAGUE](https://github.com/h-mel/plague)
+PLasmid Assembly Genetic Unit Evaluator: a Nextflow DSL2 pipeline for recovering and validating plasmids from already-assembled bacterial genomes
+- Reconstructs and types plasmids with MOB-suite
+- Screens plasmids for antimicrobial-resistance (AMR) genes with Abricate
+- Validates candidates using circularisation and optional read-mapping/coverage evidence
+- Supports optional plasmid copy-number estimation and produces a consolidated annotated plasmid table
+
 ### [MetaPhlAn 4 vs VIRGO2 for *Gardnerella*](https://github.com/ruqse/metaphlan4-vs-virgo2-gardnerella)
  A database-content comparison of two metagenomic references for the vaginal genus *Gardnerella*
  - MetaPhlAn 4 (vJan25) collapses the four named *Gardnerella* species into 2 genome bins (SGBs)
