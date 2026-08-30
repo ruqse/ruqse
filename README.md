@@ -6,6 +6,23 @@ I turn biological chaos into code-powered clarity so scientists can science bett
 
 
 ## Selected professional projects
+### [MiTCH — Multi-omics Analysis of the Vaginal Microbiome](https://github.com/ruqse/mitch_manuscript)
+
+**Co-first-author research project published in *npj Women's Health* (2026)**
+
+Integrated metagenomic, metabolomic, and genome-resolved analyses to investigate microbial and metabolic signatures of bacterial vaginosis in a clinical cohort of 111 women.
+
+* Integrated shotgun metagenomics, targeted LC-MS metabolomics, microbial pathways, and taxonomic profiles using **DIABLO** and **MOFA2**
+* Performed genome-resolved *Gardnerella* analysis, including **MAG reconstruction, species classification, pangenomics, and genome–metabolome association testing**
+* Developed reproducible **R-based bioinformatics and statistical workflows** spanning differential abundance, multivariate modelling, and cross-omics integration
+* Released analysis code, processed data objects, figures, supplementary tables, and reproducibility/privacy QC tooling
+
+**Publication:** Shabana H.*, Dube F.*, et al. *Multi-omics investigation of metabolomic and microbial features in bacterial vaginosis.* *npj Women's Health* **4**, 26 (2026). [doi:10.1038/s44294-026-00163-6](https://doi.org/10.1038/s44294-026-00163-6)
+* Equal contribution
+
+`R` · `Metagenomics` · `Metabolomics` · `Multi-omics` · `MOFA2` · `DIABLO` · `MAGs` · `Pangenomics` · `Reproducible Research`
+
+
 ### [PLAGUE](https://github.com/h-mel/plague)
 PLasmid Assembly Genetic Unit Evaluator: a Nextflow DSL2 pipeline for recovering and validating plasmids from already-assembled bacterial genomes
 - Reconstructs and types plasmids with MOB-suite
