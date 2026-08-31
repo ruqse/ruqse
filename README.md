@@ -6,7 +6,7 @@ I turn biological chaos into code-powered clarity so scientists can science bett
 
 
 ## Selected professional projects
-### [MiTCH — Multi-omics Analysis of the Vaginal Microbiome](https://github.com/ruqse/mitch_manuscript)
+### [MiTCH — Multi-omics Analysis of Bacterial Vaginosis](https://github.com/ruqse/mitch_manuscript)
 
 **Co-first-author research project published in *npj Women's Health* (2026)**
 
