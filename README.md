@@ -82,6 +82,14 @@ Analysis and Visualization of Drug Response in *C. elegans*
 
 ## Hobby projects
 
+### [C. elegans Atlas](https://github.com/ruqse/c-elegans-atlas)
+Interactive 3D explorer of *C. elegans* anatomy ([Explore the atlas](https://c-elegans-atlas.vercel.app/))
+
+- Whole-body view using Virtual Worm/OpenWorm models and neural EM view using archived NeuroSC meshes
+- Search, select, focus, and isolate anatomical structures
+- Toggle visibility and separate or align objects for comparison
+- Includes source attribution and dataset limitation notes
+
 ### [PhDplanner](https://phdplanner.com)
 One workspace for PhD course discovery and defence preparation
 - Centralized search of doctoral courses across Sweden, filter by topic, university, location, and delivery mode (browse [Courses](https://phdplanner.com/courses360))
