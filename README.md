@@ -1,4 +1,4 @@
-# Hi, I’m Faruk 👋
+# Hi, I’m Faruk
 
 [![GitHub followers](https://img.shields.io/github/followers/ruqse?label=Follow&style=social)](https://github.com/ruqse)
 
@@ -91,13 +91,7 @@ Find doctoral courses and plan your PhD defence in one place.
 - See deadlines and links to official course pages
 - Work backwards from your defence date to plan milestones
 
-[Browse courses](https://phdplanner.com/courses360) · [Plan a defence](https://phdplanner.com/defence-plan)
-
-## Tools I work with
-
-- **Analysis:** Python · R · Bash
-- **Workflows and computing:** Nextflow · SLURM/HPC · Docker · Apptainer/Singularity · Git
-- **Web:** Django · CSS
+[Browse courses](https://phdplanner.com/courses360) · [Plan a PhD defence](https://phdplanner.com/defence-plan)
 
 ## Get in touch
 
