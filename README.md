@@ -1,119 +1,106 @@
-# Hi there! 
+# Hi, I’m Faruk 👋
 
 [![GitHub followers](https://img.shields.io/github/followers/ruqse?label=Follow&style=social)](https://github.com/ruqse)
 
-I turn biological chaos into code-powered clarity so scientists can science better.
+I’m a bioinformatician working on microbiomes, multi-omics, and reproducible analysis. My work spans the vaginal virome, bacterial vaginosis, and drug response in parasitic nematodes. On the side, I build tools that make research life a little easier.
 
+## Microbiomes and viromes
 
-## Selected professional projects
-### [MiTCH — Multi-omics Analysis of Bacterial Vaginosis](https://github.com/ruqse/mitch_manuscript)
+### [Vaginal VirBench](https://github.com/ruqse/vaginal_virbench)
 
-**Co-first-author research project published in *npj Women's Health* (2026)**
+A benchmark of virus identification tools on vaginal metagenomes.
 
-Integrated metagenomic, metabolomic, and genome-resolved analyses to investigate microbial and metabolic signatures of bacterial vaginosis in a clinical cohort of 111 women.
+- Tests **14 tools** from five methodological approaches on controlled genome fragments, simulated viral spike-ins, real assemblies, and RCA-enriched viromes
+- Replicates the tool ranking in an independent **30-sample MiTCH cohort**
+- Maps the trade-off between confident viral calls and recovery of harder-to-detect viruses
+- Ships the analysis code, derived data, and workflows to reproduce the figures and tables
 
-* Integrated shotgun metagenomics, targeted LC-MS metabolomics, microbial pathways, and taxonomic profiles using **DIABLO** and **MOFA2**
-* Performed genome-resolved *Gardnerella* analysis, including **MAG reconstruction, species classification, pangenomics, and genome–metabolome association testing**
-* Developed reproducible **R-based bioinformatics and statistical workflows** spanning differential abundance, multivariate modelling, and cross-omics integration
-* Released analysis code, processed data objects, figures, supplementary tables, and reproducibility/privacy QC tooling
+### [MiTCH: Multi-omics of bacterial vaginosis](https://github.com/ruqse/mitch_manuscript)
 
-**Publication:** Shabana H.*, Dube F.*, et al. *Multi-omics investigation of metabolomic and microbial features in bacterial vaginosis.* *npj Women's Health* **4**, 26 (2026). [doi:10.1038/s44294-026-00163-6](https://doi.org/10.1038/s44294-026-00163-6)
-* Equal contribution
+How vaginal microbes and metabolites relate to bacterial vaginosis.
 
-`R` · `Metagenomics` · `Metabolomics` · `Multi-omics` · `MOFA2` · `DIABLO` · `MAGs` · `Pangenomics` · `Reproducible Research`
+- Integrates shotgun metagenomics and targeted metabolomics from **111 women** (29 with BV, 82 controls)
+- Builds a *Gardnerella* pangenome from 61 metagenome-assembled genomes and links genomes to metabolites
+- Includes analysis code, processed data, figures, and supplementary tables
 
-
-### [PLAGUE](https://github.com/h-mel/plague)
-PLasmid Assembly Genetic Unit Evaluator: a Nextflow DSL2 pipeline for recovering and validating plasmids from already-assembled bacterial genomes
-- Reconstructs and types plasmids with MOB-suite
-- Screens plasmids for antimicrobial-resistance (AMR) genes with Abricate
-- Validates candidates using circularisation and optional read-mapping/coverage evidence
-- Supports optional plasmid copy-number estimation and produces a consolidated annotated plasmid table
+Co-first-author paper in [*npj Women’s Health* (2026)](https://doi.org/10.1038/s44294-026-00163-6).
 
 ### [MetaPhlAn 4 vs VIRGO2 for *Gardnerella*](https://github.com/ruqse/metaphlan4-vs-virgo2-gardnerella)
- A database-content comparison of two metagenomic references for the vaginal genus *Gardnerella*
- - MetaPhlAn 4 (vJan25) collapses the four named *Gardnerella* species into 2 genome bins (SGBs)
- - VIRGO2 resolves all four species plus 7 *G. vaginalis* sub-clades, for 16 distinct labels
- - Labels read directly from the MetaPhlAn marker database and the VIRGO2 taxon table
- - Database-content analysis of what each catalog can represent, not a per-read benchmark
- - Reproducible in about a minute with committed outputs
+
+How two reference databases represent *Gardnerella* diversity.
+
+- Shows that MetaPhlAn 4 merges the four named *Gardnerella* species into composite bins
+- Shows that VIRGO2 resolves all four, plus seven *G. vaginalis* sub-clades
+- Reproduces in about a minute, and precomputed outputs let you check the tables without downloading anything
+
+## Pipelines and analysis tools
+
+### [PLAGUE](https://github.com/h-mel/plague)
+
+**PLasmid Assembly Genetic Unit Evaluator**: a Nextflow pipeline that recovers and validates plasmids from assembled bacterial genomes.
+
+- Reconstructs and types plasmids with MOB-suite
+- Screens for antimicrobial-resistance genes with Abricate
+- Validates candidates with circularisation checks and, when reads are supplied, coverage and copy-number estimates
 
 ### [StagNF](https://github.com/ruqse/StagNF)
-A Nextflow Implementation of StaG-mwc (Metagenomic Workflow Collaboration)
-- Nextflow adaptation of the comprehensive StaG-mwc workflow
-- Quality control, host removal, and taxonomic profiling pipeline
-- Optimized for UPPMAX clusters, adaptable to any HPC environment
-- Streamlined metagenomic analysis workflow
-- Continuous development to mirror original functionality
 
-### [Transcriptomic Gene Co-expression Network Analysis](https://github.com/ruqse/Parascaris-IVM-GeneNetwork)
-Gene Co-expression Network Analysis in *Parascaris univalens* Following Ivermectin Exposure
-- Investigation of drug response mechanisms
-- Gene co-expression network analysis
-- Specialized for parasitic nematode research
-- Focus on anthelmintic drug response
+A Nextflow reimplementation of part of the StaG-mwc metagenomics workflow.
 
-### [RNA-Seq Nextflow Pipeline](https://github.com/ruqse/N2IVM)
-A comprehensive Nextflow pipeline for analyzing Ivermectin-exposed *C. elegans* (N2) RNA-Seq data
-- Complete workflow from raw reads to differential expression analysis
-- Specialized pipeline for drug response studies
-- Integrated quality control and quantification
-- Optimized for *C. elegans* transcriptomics
+- Runs quality control, host removal, and taxonomic profiling, with a MultiQC report
+- Ships profiles for UPPMAX, generic SLURM, and SGE clusters
 
-### [C. elegans Ivermectin Response Visualization](https://github.com/ruqse/MLgenePositions)
-Analysis and Visualization of Drug Response in *C. elegans*
-- Manhattan plot generation for drug exposure mapping
-- Rug plots for resistance-implicated genes
-- Integration of AndersenLab GWA mapping data
-- Specialized visualization for drug response studies
+### [Parascaris gene co-expression networks](https://github.com/ruqse/Parascaris-IVM-GeneNetwork)
 
-## Tech stack
+How *Parascaris univalens* responds to ivermectin.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Nextflow](https://img.shields.io/badge/-Nextflow-0FC15A?style=flat-square&logo=nextflow&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![HPC](https://img.shields.io/badge/-HPC-4B0082?style=flat-square&logo=server&logoColor=white)
+- Uses RNA-seq of the anterior end and intestine to build gene co-expression networks
+- Identifies seven gene modules and 219 core genes associated with the drug response
 
+### [C. elegans RNA-seq pipeline](https://github.com/ruqse/N2IVM)
 
-## Hobby projects
+A Nextflow workflow for RNA-seq of ivermectin-exposed *C. elegans*.
+
+- Runs quality control, rRNA removal, trimming, and Salmon quantification
+- Produces transcript abundances ready for differential expression with DESeq2 or edgeR
+
+### [Mapping ivermectin response in C. elegans](https://github.com/ruqse/MLgenePositions)
+
+Visualising the genomics of drug response.
+
+- Draws Manhattan plots of GWA mappings after ivermectin exposure, using AndersenLab data
+- Adds a rug plot of genes implicated in ivermectin resistance
+
+## Side projects
 
 ### [C. elegans Atlas](https://github.com/ruqse/c-elegans-atlas)
-Interactive 3D explorer of *C. elegans* anatomy ([Explore the atlas](https://c-elegans-atlas.vercel.app/))
 
-- Whole-body view using Virtual Worm/OpenWorm models and neural EM view using archived NeuroSC meshes
-- Search, select, focus, and isolate anatomical structures
-- Toggle visibility and separate or align objects for comparison
-- Includes source attribution and dataset limitation notes
+An interactive 3D explorer of *C. elegans* anatomy.
+
+- Search for structures, then inspect, focus on, or isolate them
+- Switch between whole-body and neural EM views
+- Spread structures apart to see them more clearly
+
+[Explore the atlas →](https://c-elegans-atlas.vercel.app/)
 
 ### [PhDplanner](https://phdplanner.com)
-One workspace for PhD course discovery and defence preparation
-- Centralized search of doctoral courses across Sweden, filter by topic, university, location, and delivery mode (browse [Courses](https://phdplanner.com/courses360))
-- Deadline awareness with direct links to official application pages, easy sharing for supervisors and colleagues
-- Backward-planned defence timeline from your target date, milestones, documents, and reminders in one place (open the [Defence Planner](https://phdplanner.com/defence-plan))
-- Regularly refreshed data and growing institutional coverage, with international expansion planned
 
-<!-- 
-## GitHub Stats
+Find doctoral courses and plan your PhD defence in one place.
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruqse&show_icons=true&theme=radical)
--->
-## Connect with me
+- Search courses across Sweden by topic, university, location, and delivery mode
+- See deadlines and links to official course pages
+- Work backwards from your defence date to plan milestones
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/farukdube)
+[Browse courses](https://phdplanner.com/courses360) · [Plan a defence](https://phdplanner.com/defence-plan)
 
----
+## Tools I work with
 
-Advancing bioinformatics through robust pipeline development and analysis. Open to collaborations!
+- **Analysis:** Python · R · Bash
+- **Workflows and computing:** Nextflow · SLURM/HPC · Docker · Apptainer/Singularity · Git
+- **Web:** Django · CSS
 
-<!-- 
-Replace the following:
-- YOUR_USERNAME with your GitHub username
-- YOUR_REPO_LINK with the respective repository URLs
-- YOUR_LINKEDIN_URL with your LinkedIn profile URL
-- YOUR_TWITTER_URL with your Twitter profile URL
--->
+## Get in touch
+
+Always happy to talk microbiomes, reproducible workflows, or research tools.
+
+[LinkedIn](https://www.linkedin.com/in/farukdube)
