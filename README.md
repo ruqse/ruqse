@@ -15,6 +15,8 @@ A benchmark of virus identification tools on vaginal metagenomes.
 - Maps the trade-off between confident viral calls and recovery of harder-to-detect viruses
 - Ships the analysis code, derived data, and workflows to reproduce the figures and tables
 
+First-author preprint on [*bioRxiv* (2026)](https://doi.org/10.64898/2026.09.24.753817).
+
 ### [MiTCH: Multi-omics of bacterial vaginosis](https://github.com/ruqse/mitch_manuscript)
 
 How vaginal microbes and metabolites relate to bacterial vaginosis.
