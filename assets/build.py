@@ -46,7 +46,7 @@ PLATES = [
          title="*Parascaris* gene networks",
          text="Tissue-specific response of *P. univalens* to ivermectin. "
               "Shown: *gegf-1* links 71 genes across four co-expression modules.",
-         venue="RNA-seq network analysis in R"),
+         venue="First author, *PLOS ONE* 2024"),
     dict(slug="plague", figure="dag:plague",
          title="PLAGUE",
          text="Recovers and validates plasmids from assembled bacterial genomes. "
