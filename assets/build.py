@@ -30,7 +30,7 @@ PLATES = [
     dict(slug="vaginal-virbench", figure="vaginal-virbench.png",
          title="Vaginal VirBench",
          text="Benchmark of 14 virus identification tools on vaginal metagenomes. "
-              "Shown: recall on *Lactobacillus* versus *Gardnerella* phages, 1,500 bp fragments.",
+              "Shown: attention-based versus feature-based tools as fragment length grows.",
          venue="First-author preprint, *bioRxiv* 2026"),
     dict(slug="mitch", figure="mitch.png",
          title="MiTCH",
