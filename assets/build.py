@@ -21,8 +21,8 @@ from playwright.sync_api import sync_playwright
 HERE = pathlib.Path(__file__).resolve().parent
 
 HERO_BYLINE = "Faruk Dube, bioinformatician"
-HERO = ("I study the vaginal virome, bacterial vaginosis, and drug response "
-        "in parasitic nematodes, and build tools that make research easier.")
+HERO = ("I study the human microbiome and drug response in parasitic nematodes, "
+        "and build tools that make research easier.")
 
 # figure: a file in assets/src/, or "dag:<name>" for a pipeline diagram below.
 # *asterisks* mark italics.

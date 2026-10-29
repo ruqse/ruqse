@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
-  <img alt="Faruk Dube, bioinformatician. I study the vaginal virome, bacterial vaginosis, and drug response in parasitic nematodes, and build tools that make research easier." src="assets/hero-light.png" width="100%">
+  <img alt="Faruk Dube, bioinformatician. I study the human microbiome and drug response in parasitic nematodes, and build tools that make research easier." src="assets/hero-light.png" width="100%">
 </picture>
 
 ### Research
