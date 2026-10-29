@@ -51,7 +51,7 @@ PLATES = [
          title="PLAGUE",
          text="Recovers and validates plasmids from assembled bacterial genomes. "
               "Shown: the pipeline’s steps.",
-         venue="Nextflow DSL2, nf-core modules"),
+         venue="Second-author preprint, *bioRxiv* 2026"),
     dict(slug="hpc-digest", figure="hpc-digest.png",
          title="hpc-digest",
          text="Weekly Slack charts of a research group’s compute and storage use. "
