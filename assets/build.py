@@ -30,7 +30,7 @@ PLATES = [
     dict(slug="vaginal-virbench", figure="vaginal-virbench.png",
          title="Vaginal VirBench",
          text="Benchmark of 14 virus identification tools on vaginal metagenomes. "
-              "Shown: recall by virus group on 1,500 bp fragments.",
+              "Shown: recall on *Lactobacillus* versus *Gardnerella* phages, 1,500 bp fragments.",
          venue="First-author preprint, *bioRxiv* 2026"),
     dict(slug="mitch", figure="mitch.png",
          title="MiTCH",
@@ -40,7 +40,7 @@ PLATES = [
     dict(slug="parascaris-betatubulin", figure="parascaris-betatubulin.png",
          title="*Parascaris* β-tubulin",
          text="243 haplotypes of seven β-tubulin genes from a benzimidazole-resistant "
-              "and a susceptible farm. Shown: haplotypes needed for 95% of reads.",
+              "and a susceptible farm. Shown: share of reads from each gene’s dominant haplotype.",
          venue="Submitted to *PLOS ONE*"),
     dict(slug="parascaris-networks", figure="parascaris-networks.png",
          title="*Parascaris* gene networks",
