@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
-  <img alt="Faruk Dube, bioinformatician. I study the vaginal microbiome and drug resistance in parasitic worms, and build the pipelines that keep that work reproducible." src="assets/hero-light.png" width="100%">
+  <img alt="Faruk Dube, bioinformatician. I work on microbiomes, multi-omics, and reproducible analysis. My work spans the vaginal virome, bacterial vaginosis, and drug response in parasitic nematodes. On the side, I build tools that make research life a little easier." src="assets/hero-light.png" width="100%">
 </picture>
 
 ### Research
